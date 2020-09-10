@@ -16,5 +16,6 @@ namespace testMiddelware.classes
         [Required (ErrorMessage = " email is required")]
         [EmailAddress(ErrorMessage ="ایمیل اشتباه")]
         public string AdminEmail { get; set; }
+        public int age { get; set; }
     }
 }
