@@ -53,6 +53,7 @@ namespace testMiddelware.Controllers
         public IActionResult grase([FromBody] ClassTest c)
         {
             int f = 4;
+            int d = 5;
             ClassTest c1 = new ClassTest();
             c1.Name = c.Name;
             c1.Lastname = c.Lastname;
